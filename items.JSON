@@ -29,7 +29,17 @@
       "dimensions": "W 100cm, L 200cm, H 110cm",
       "stock": 100,
       "colour": "deep oak",
-      "image": "image/Dining room-7.jpg"}
+      "image": "image/Dining room-7.jpg"},
+
+    { "id":2336,
+      "name": "oak-Bed",
+      "type": "Bed",
+      "price": 1000,
+      "description": "Bed",
+      "dimensions": "W 100cm, L 200cm, H 110cm",
+      "stock": 100,
+      "colour": "deep oak",
+      "image": "image/Bedroom.jpg"}
 
 
 
