@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "id": 1234,
+      "name": "oak-table",
+      "type": "table",
+      "price": 700,
+      "description": "dining_table",
+      "dimensions": "W 100cm, L 200cm, H 110cm",
+      "stock": 100,
+      "colour": "deep oak",
+      "image": "image/Dining room.jpg"},
+
+    { "id":4321,
+      "name": "oak-table",
+      "type": "table",
+      "price": 900,
+      "description": "dining_table",
+      "dimensions": "W 100cm, L 200cm, H 110cm",
+      "stock": 100,
+      "colour": "deep oak",
+      "image": "image/Dining room -2.jpg"},
+
+    { "id":2541,
+      "name": "oak-chair",
+      "type": "chair",
+      "price": 50,
+      "description": "dining_chair",
+      "dimensions": "W 100cm, L 200cm, H 110cm",
+      "stock": 100,
+      "colour": "deep oak",
+      "image": "image/Dining room-7.jpg"}
+
+
+
+        ]
+    }
