@@ -35,6 +35,13 @@ body
     background:#222;
 }
 
+
+
+p1{
+	font-size: 15px;
+	color: #080808;
+}
+
 .container
 {
 	/*padding:0px 30px 30px;*/
@@ -445,7 +452,6 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 		background:#4DC7EC;
 		padding:2px 5px;
 		border-radius:3px;
-		font-weight:400px;
 		font-family:Montserrat;
 		color:#fff;
 		margin-left:20px;
@@ -913,6 +919,8 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
     margin-top:-10px;
 	height:32px;
 }
+
+
 .button-search
 {
     background: url("../img/search.png") no-repeat scroll center center transparent;
@@ -1298,7 +1306,7 @@ ul.slides
 .powered a
 {
 	font-size:11px;
-	color:##777777;
+	color:#777777;
 }
 
 .powered ul 
@@ -2633,7 +2641,7 @@ h2.page-title
 	color:#555;
 	font-size:13px;
 	font-family:'Open Sans';
-	font-weight:00;
+	/*font-weight:*/
 	line-height:22px;
 }
 .text-blog ul li 
@@ -2663,7 +2671,7 @@ h2.page-title
 }
 
 .rss-wrapper {
-  background: url("../img/rss.png") no-repeat scroll center center / cover;
+  background: url("../image/rss.png") no-repeat scroll center center / cover;
   display: block;
   height: 14px;
   margin-right: 30px;
@@ -2825,7 +2833,7 @@ a.comment-reply-link
 	color: #555555;
 }
 .success {
-	background: #fff url('../img/success.png') 20px center no-repeat;
+	background: #fff url('../image/success.png') 20px center no-repeat;
 	/*border: 1px solid #A9C1D9;
 	-webkit-border-radius: 5px 5px 5px 5px;
 	-moz-border-radius: 5px 5px 5px 5px;
@@ -2834,7 +2842,7 @@ a.comment-reply-link
 }
 
 .warning {
-	background: #fff url('../img/warning.png') 20px center no-repeat;
+	background: #fff url('../image/warning.png') 20px center no-repeat;
 	/*border: 1px solid #C9EAE6;
 	-webkit-border-radius: 5px 5px 5px 5px;
 	-moz-border-radius: 5px 5px 5px 5px;
@@ -2842,7 +2850,7 @@ a.comment-reply-link
 	color: #313942;
 }
 .attention {
-	background: #fff url('../img/attention.png') 20px center no-repeat;
+	background: #fff url('../image/attention.png') 20px center no-repeat;
 	/*border: 1px solid #F2DD8C;
 	-webkit-border-radius: 5px 5px 5px 5px;
 	-moz-border-radius: 5px 5px 5px 5px;
