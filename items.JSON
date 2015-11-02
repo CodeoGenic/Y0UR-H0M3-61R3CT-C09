@@ -3,6 +3,7 @@
     {
       "id": 1234,
       "name": "oak-table",
+      "category":"diningroom",
       "type": "table",
       "price": 700,
       "description": "dining_table",
@@ -13,6 +14,7 @@
 
     { "id":4321,
       "name": "oak-table",
+      "category":"bedroom",
       "type": "table",
       "price": 900,
       "description": "dining_table",
@@ -24,6 +26,7 @@
     { "id":2541,
       "name": "oak-chair",
       "type": "chair",
+      "category":"office",
       "price": 50,
       "description": "dining_chair",
       "dimensions": "W 100cm, L 200cm, H 110cm",
@@ -34,6 +37,7 @@
     { "id":2336,
       "name": "oak-Bed",
       "type": "Bed",
+      "category":"bedroom",
       "price": 1000,
       "description": "Bed",
       "dimensions": "W 100cm, L 200cm, H 110cm",

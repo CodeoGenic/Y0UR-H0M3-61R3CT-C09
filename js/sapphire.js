@@ -7,6 +7,7 @@ $(window).on('load', function ()
 
 $(document).ready(function()
 {
+
 	$.getJSON("items.json", function(json){
 
 		//$("img[src*='image/blank.png']").each(function(index) {
@@ -29,19 +30,22 @@ $(document).ready(function()
 			var items = json.items;
 		    var html2 = "";
 		    var p = document.createElement("p");
+		    var userSelction = null;
 			for(var i = 0; i < items.length; i++) {
-				var html =
-					'<div class = "col-md-4">' +
-					'<div class ="product">' +
-					'<a><img src= "'+items[i].image+'" class="center-block img-responsive"></a>' +
-					'<div class="name"><p class="text-center">'+items[i].name+'</p></div>' +
-					'<div class="price"><p class="text-center">£'+items[i].price+'</p></div>' +
-					'</div>' +
-					'</div>'
+				if (items[i].category == "bedroom") {
+					var html =
+						'<div class = "col-md-4">' +
+						'<div class ="product">' +
+						'<a><img src= "' + items[i].image + '" class="center-block img-responsive"></a>' +
+						'<div class="name"><p class="text-center">' + items[i].name + '</p></div>' +
+						'<div class="price"><p class="text-center">£' + items[i].price + '</p></div>' +
+						'</div>' +
+						'</div>'
 
-				html2+=html;
+					html2 += html;
 
 
+				}
 			}
 
 		myItems.innerHTML = html2;
@@ -51,6 +55,24 @@ $(document).ready(function()
 			//}
 
 		});
+
+
+	var categorysearch = function (sender) {
+		var category = $(sender).text();
+		if (category) {
+			$.getJSON("items.json", function (json) {
+				html = "";
+				$.each(json.items, function (index, data) {
+					if (data.brand == category) {
+						html += data.name + "\n";
+					}
+				});
+				alert(html);
+			});
+		}
+	};
+
+	categorysearch();
 //
 		//           $xi.parent().parent().find('p').text(data[randItems[i+3]].description.split(".")[0]);
 
