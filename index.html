@@ -10,6 +10,7 @@
 	<link href='css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
     <link rel="stylesheet" type="text/css" href="css/camera.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/tileCSS.css">
     <!--script type="text/javascript" src="https://getfirebug.com/firebug-lite-debug.js"></script-->	
 	<title>Your House Direct</title>
 </head>
@@ -194,18 +195,13 @@
 			</div>
 
 
-   			<div class="row">
-				<div class="col-md-6" style="background: url('image/remove.png'); background-size: cover">
+   			<!--<div class="row">-->
+				<!--<div class="col-md-6" style="background: url('image/remove.png'); background-size: cover">-->
+				<!--</div>-->
 
-				</div>
-
-
-				<div class="col-md-6" style="background: url('image/Bedroom-5.jpg'); background-size: cover">
-
-				</div>
-
-
-			</div>
+				<!--<div class="col-md-6" style="background: url('image/Bedroom-5.jpg'); background-size: cover">-->
+				<!--</div>-->
+			<!--</div>-->
 
 
 
@@ -224,47 +220,92 @@
 
 	</div>
 
+		<div id="metro-array" style="display: block;">
 
+
+			<!-- Simple grid for the demo! None of these styles are required, thats just how I've styled my tiles -->
+			<!-- The only important thing is class="metro-tile" -->
+
+			<div style="width: 400px; height: 400px; float: left; ">
+
+				<a class="metro-tile" style="cursor: pointer; width: 400px; height: 200px; display: block; background-image: url('image/French%20Bedroom%20%20Scene%20(Medium).jpg'); color: #00d2fe; margin-bottom: 10px;">
+					<p2>Bedroom</p2>
+				</a>
+
+				<a class="metro-tile" style="cursor: pointer; width: 400px; height: 200px; display: block; background-image: url('image/Bedroom-5.jpg'); color: #00d2fe;">
+					<p2>Living Room</p2>
+				</a>
+			</div>
+
+			<div style="width: 200px; height: 420px; float: left; margin-left: 10px">
+
+				<a class="metro-tile" style="cursor: pointer; width: 200px; height: 410px; display: block; background-image: url('image/Dining%20room-6.jpg'); color: #00d2fe">
+					<p2>Office</p2>
+					<p>shop now</p>
+				</a>
+
+			</div>
+
+			<div style="width: 320px; height: 400px; float: left; margin-left: 10px">
+
+				<a class="metro-tile" style="cursor: pointer; width: 320px; height: 200px; display: block; background-image: url('image/French%20Dining%20Room%20web.jpg'); color: #00d2fe; margin-bottom: 10px;">
+					<p2>Bathroom</p2>
+				</a>
+
+				<a class="metro-tile" style="cursor: pointer; width: 320px; height: 200px; margin-right: 10px; display: block; float: left; background-image: url('image/Bedroom.jpg'); color: #00d2fe;">
+					<p2>Kitchen</p2>
+				</a>
+
+			</div>
+
+		</div>
+
+
+
+
+
+
+</div>
 
 	<div class="footer black">
 		<div class="container">
 			<!-- div class="arrow"><b class="caret"></b></div -->
-		    <div class="row">
-		        <div class="col-md-3">
+			<div class="row">
+				<div class="col-md-3">
 					<div>
-			        <h3>Information</h3>
-				        <ul>
-					        <li><a href="about.html">About Us</a></li>
-						    <li><a href="">Delivery Information</a></li>
-						    <li><a href="">Privacy Policy</a></li>
-						    <li><a href="">Terms & Conditions</a></li>
-					    </ul>
-					  </div>
+						<h3>Information</h3>
+						<ul>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="">Delivery Information</a></li>
+							<li><a href="">Privacy Policy</a></li>
+							<li><a href="">Terms & Conditions</a></li>
+						</ul>
+					</div>
 				</div>
-		        <div class="col-md-3">
+				<div class="col-md-3">
 					<div>
-			        <h3>Customer Service</h3>
-				        <ul>
-					        <li><a href="contact.html" class="ajax_right">Contact Us</a></li>
-						    <li><a href="">Returns</a></li>
-						    <li><a href="">Site Map</a></li>
+						<h3>Customer Service</h3>
+						<ul>
+							<li><a href="contact.html" class="ajax_right">Contact Us</a></li>
+							<li><a href="">Returns</a></li>
+							<li><a href="">Site Map</a></li>
 							<li><a href="">Shipping</a></li>
-				        </ul>	
-					  </div>
-				</div>	
+						</ul>
+					</div>
+				</div>
 
-		        <!-- div class="col-md-3 twitter">
-					<div class="row">
-						<h3>Follow us</h3>
-						<script type="text/javascript" src="js/twitterFetcher_v9_min.js"></script>
-						<ul id="twitter_update_list"><li class="col-md-2">Twitter feed loading</li></ul>			
-						<script>twitterFetcher.fetch('256524641194098690', 'twitter_update_list', 2, true, true, false);</script> 
-					</div>				
-				</div-->	
+				<!-- div class="col-md-3 twitter">
+                    <div class="row">
+                        <h3>Follow us</h3>
+                        <script type="text/javascript" src="js/twitterFetcher_v9_min.js"></script>
+                        <ul id="twitter_update_list"><li class="col-md-2">Twitter feed loading</li></ul>
+                        <script>twitterFetcher.fetch('256524641194098690', 'twitter_update_list', 2, true, true, false);</script>
+                    </div>
+                </div-->
 				<div class="col-md-3">
 				</div>
 
-				
+
 				<div class="col-md-3 social">
 					<div class="copy">Copyright &copy; Your House Direct</div>
 					<ul class="social-network">
@@ -272,13 +313,13 @@
 						<li><a href=""><i class="fa fa-google-plus"></i></a></li>
 						<li><a href=""><i class="fa fa-pinterest"></i></a></li>
 						<li><a href=""><i class="fa fa-rss"></i></a></li>
-						<li><a href=""><i class="fa fa-twitter"></i></a></li>	
+						<li><a href=""><i class="fa fa-twitter"></i></a></li>
 					</ul>
 				</div>
 
-		    </div>	
+			</div>
+		</div>
 	</div>
-	</div>	
 </div>
 
 
@@ -290,6 +331,7 @@
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/camera.js"></script>
 <script type="text/javascript" src="js/sapphire.js"></script>
+<script type="text/javascript" src="js/tileJs.js"></script>
 <script>
 		$(document).ready( function()
 		{	

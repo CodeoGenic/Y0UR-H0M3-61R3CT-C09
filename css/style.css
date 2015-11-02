@@ -29,17 +29,33 @@
 /*	Default styles
 /*-----------------------------------------------------------------------------------*/
 
+
+
 body
 {
     font-family: 'Open Sans', sans-serif;
     background:#222;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
-
+/*the code above removes text selection for most browsers*/
 
 
 p1{
 	font-size: 15px;
 	color: #080808;
+}
+
+p2{
+	font-size: 30px;
+	color: #080808;
+	font-style: normal;
+	font-family: "adobe-text-pro", sans-serif;
 }
 
 .container
