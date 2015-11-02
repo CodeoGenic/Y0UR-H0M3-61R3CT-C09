@@ -32,11 +32,11 @@ function Tile( element ){
 		tile.parentElement.style.transformStyle = "preserve-3d";
 
 		// Set element transform times
-		tile.style.webkitTransition = "-webkit-transform 0.08s";
-		tile.style.MozTransition = "-moz-transform 0.08s";
-		tile.style.msTransition = "-ms-transform 0.08s";
-		tile.style.oTransition = "-o-transform 0.08s";
-		tile.style.transition = "transform 0.08s";
+		tile.style.webkitTransition = "-webkit-transform 0.05s";
+		tile.style.MozTransition = "-moz-transform 0.05s";
+		tile.style.msTransition = "-ms-transform 0.05s";
+		tile.style.oTransition = "-o-transform 0.05s";
+		tile.style.transition = "transform 0.05s";
 
 		// This gives an antialiased effect for transforms in firefox.
 		tile.style.outline = "1px solid transparent";
@@ -74,7 +74,7 @@ function Tile( element ){
 		// If the click is in the center quater of the element, push down.
 		if ( x > width/4 && x < (width/4 * 3) && y > height/4 && y < (height/4 * 3) ) {
 
-			translateString += "rotateX( 0deg ) rotateY( 0deg ) translateZ( -30px )";
+			translateString += "rotateX( 0deg ) rotateY( 0deg ) translateZ( -1000px )";
 		}
 		
 		// is the user closer to the right/left hand side?
