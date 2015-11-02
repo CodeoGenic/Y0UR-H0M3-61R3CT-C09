@@ -46,8 +46,11 @@ function Tile( element ){
 
 		// Listen to mouse events for the tile.
 		tile.addEventListener('mousedown', MouseDown, false);
+
+
 		
 	}
+
 
 
 	var pushTile = function( x, y ){
@@ -74,7 +77,7 @@ function Tile( element ){
 		// If the click is in the center quater of the element, push down.
 		if ( x > width/4 && x < (width/4 * 3) && y > height/4 && y < (height/4 * 3) ) {
 
-			translateString += "rotateX( 0deg ) rotateY( 0deg ) translateZ( -1000px )";
+			translateString += "rotateX( 0deg ) rotateY( 0deg ) translateZ( -60px )";
 		}
 		
 		// is the user closer to the right/left hand side?
