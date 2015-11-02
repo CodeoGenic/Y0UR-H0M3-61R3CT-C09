@@ -53,9 +53,10 @@ p1{
 
 p2{
 	font-size: 30px;
-	color: #080808;
-	font-style: normal;
-	font-family: "adobe-text-pro", sans-serif;
+	color: #FFFFFF;
+	text-transform: none;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+
 }
 
 .container
@@ -176,7 +177,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	background:transparent;
 	color:#555;
 	text-transform:none;
-	font-family:'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: "adelle", serif;
 } 
 
 .navbar .bootstrap-select.btn-group
