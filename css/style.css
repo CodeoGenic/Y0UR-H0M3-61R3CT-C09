@@ -1090,15 +1090,15 @@ ul.slides
 
 .product
 {
-   background:#fff;
+   background:#000000;
    margin-bottom:20px;
    padding-bottom:10px;
-   text-align:center;	
+   text-align:center;
 }
 .product > a
 {
 	display:block;
-	padding:20px;
+	padding:0px;
 }
 
 .product_sale 
