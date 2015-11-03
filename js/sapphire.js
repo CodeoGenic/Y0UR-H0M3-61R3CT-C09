@@ -8,6 +8,7 @@ $(window).on('load', function ()
 $(document).ready(function()
 {
 
+
 	$.getJSON("items.json", function(json){
 
 		//$("img[src*='image/blank.png']").each(function(index) {
@@ -30,9 +31,11 @@ $(document).ready(function()
 			var items = json.items;
 		    var html2 = "";
 		    var p = document.createElement("p");
-		    var userSelction = null;
+			//const filtering = $(this).parent().parent();
+			//var category = filtering.find('body').element.id;
+            var category = document.getElementById("filter").innerHTML;
 			for(var i = 0; i < items.length; i++) {
-				if (items[i].category == "bedroom") {
+				if (items[i].category == category) {
 					var html =
 						'<div class = "col-md-4">' +
 						'<div class ="product">' +
@@ -57,22 +60,30 @@ $(document).ready(function()
 		});
 
 
-	var categorysearch = function (sender) {
-		var category = $(sender).text();
-		if (category) {
-			$.getJSON("items.json", function (json) {
-				html = "";
-				$.each(json.items, function (index, data) {
-					if (data.brand == category) {
-						html += data.name + "\n";
-					}
-				});
-				alert(html);
-			});
-		}
-	};
 
-	categorysearch();
+	//var  getid = function(String){
+    //
+	//	chosenid = String;
+    //
+	//};
+    //
+	//var categorysearch = function (sender) {
+	//	var category = $.(sender).text();
+	//	var html3;
+	//	if (category) {
+	//		$.getJSON("items.json", function (json) {
+	//			html3 = "";
+	//			$.each(json.items, function (index, data) {
+	//				if (data.category == category) {
+	//					html3 += data.name + "\n";
+	//				}
+	//			});
+	//			alert(html3);
+	//		});
+	//	}
+	//};
+    //
+	//categorysearch();
 //
 		//           $xi.parent().parent().find('p').text(data[randItems[i+3]].description.split(".")[0]);
 
