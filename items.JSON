@@ -34,10 +34,7 @@
       "dimensions": "W 200cm, L 400cm, H 220cm",
       "stock": 200,
       "colour": "oak",
-      "image": "image/Bedroom-5.jpg"
-    },
-
-
+      "image": "image/Bedroom-5.jpg"},
 
     { "id": 2903,
       "name": "bed",
@@ -203,9 +200,6 @@
       "stock": 150,
       "colour": "oak",
       "image": "image/Bedroom -4.jpg"},
-
-
-
 
     {
       "id": 1234,
@@ -724,7 +718,6 @@
       "stock": 120,
       "colour": "deep oak",
       "image": "image/Dining_room.jpg"},
-
     {
       "id": 3600,
       "name": "oak-table",
