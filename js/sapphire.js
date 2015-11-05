@@ -53,7 +53,7 @@ $(document).ready(function()
 
 			var myItems = document.getElementById("myProducts");
 			myItems.style.overflowY="auto";
-			myItems.style.height="400px";
+			myItems.style.height="600px";
 			var items = json.items;
 		    var html2 = "";
 		    var p = document.createElement("p");
