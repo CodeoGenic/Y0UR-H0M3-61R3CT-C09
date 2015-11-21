@@ -590,7 +590,7 @@ header a {
 .tile-caption {
   position: absolute;
   z-index: 1;
-  background-color: #ff00c9;
+  background-color: #2096ff;
   color: #fff;
   font-size: 1em;
   padding: 1em;
@@ -734,7 +734,8 @@ header a {
 /* slide text inside tile up */
 
 .slideTextUp div:nth-child(2) {
-  top: 100%
+  top: 90%
+
 }
 
 .slideTextUp:hover div {
@@ -742,6 +743,7 @@ header a {
   -ms-transform: translateY(-100%);
   -o-transform: translateY(-100%);
   transform: translateY(-100%)
+
 }
 
 .tile-1 p {
