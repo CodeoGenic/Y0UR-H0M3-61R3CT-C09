@@ -556,7 +556,7 @@ header a {
 
 .tile {
   float: left;
-  margin: 0 auto 1%;
+  margin: 0 auto 2%;
   color: white;
   font-size: 1.3em;
   text-align: center;
@@ -566,8 +566,6 @@ header a {
   cursor: pointer;
   position: relative;
   background-color: #fff;
-  color: #333;
-  position: relative;
   -webkit-transition: background-color 0.2s ease-out;
   -o-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out
@@ -590,8 +588,8 @@ header a {
 .tile-caption {
   position: absolute;
   z-index: 1;
-  background-color: #2096ff;
-  color: #fff;
+  background-color: rgba(255, 255, 255, 0.69);
+  color: #000000;
   font-size: 1em;
   padding: 1em;
   text-align: left
@@ -608,10 +606,12 @@ header a {
   left: -100%;
   top: 0;
   bottom: 0;
-  width: 40%;
+  width: 100%;
   -webkit-transition: left .3s linear;
   -o-transition: left .3s linear;
-  transition: left .3s linear
+  transition: left .3s linear;
+  ;
+  
 }
 
 .tile:hover .caption-left {
@@ -676,13 +676,13 @@ header a {
 }
 
 .tile-5 {
-  background-color: #FCC120;
+  background-color: #fe0023;
   color: white
 }
 
 .tile-5:hover {
-  background-color: #fff;
-  color: #FCC120
+  background-color: #ffffff;
+  color: #fe0023
 }
 
 .tile-6 {

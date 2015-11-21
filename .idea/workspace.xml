@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="730cf9bf-9d7c-4e0a-8d75-935f6c8be23f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/Thumbs.db" afterPath="$PROJECT_DIR$/image/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bedroom.html" afterPath="$PROJECT_DIR$/Bedroom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/windows8tile.css" afterPath="$PROJECT_DIR$/css/windows8tile.css" />
     </list>
     <ignored path="Y0UR-H0M3-61R3CT-C09.iws" />
@@ -30,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.2846155" vertical-offset="5236" max-vertical-offset="6766">
-              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            <state vertical-scroll-proportion="-9.153846" vertical-offset="3825" max-vertical-offset="6766">
+              <caret line="239" column="50" selection-start-line="239" selection-start-column="50" selection-end-line="239" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -73,8 +71,22 @@
       <file leaf-file-name="Bedroom.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bedroom.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5966" max-vertical-offset="8041">
-              <caret line="458" column="33" selection-start-line="458" selection-start-column="33" selection-end-line="458" selection-end-column="33" />
+            <state vertical-scroll-proportion="-8.884615" vertical-offset="6076" max-vertical-offset="8330">
+              <caret line="371" column="51" selection-start-line="371" selection-start-column="51" selection-end-line="371" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="windows8tile.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/windows8tile.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5551257" vertical-offset="8672" max-vertical-offset="21182">
+              <caret line="527" column="13" selection-start-line="527" selection-start-column="13" selection-end-line="527" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -83,9 +95,11 @@
       <file leaf-file-name="sapphire.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/sapphire.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="1802">
-              <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="767" max-vertical-offset="2210">
+              <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+              <folding>
+                <marker date="1448134928739" expanded="true" signature="561:2693" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,9 +125,9 @@
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/items.JSON" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/css/windows8tile.css" />
-        <option value="$PROJECT_DIR$/Bedroom.html" />
         <option value="$PROJECT_DIR$/Kitchen.html" />
+        <option value="$PROJECT_DIR$/Bedroom.html" />
+        <option value="$PROJECT_DIR$/css/windows8tile.css" />
       </list>
     </option>
   </component>
@@ -179,6 +193,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Y0UR-H0M3-61R3CT-C09" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Y0UR-H0M3-61R3CT-C09" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Y0UR-H0M3-61R3CT-C09" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Y0UR-H0M3-61R3CT-C09" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -602,20 +644,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/tileCSS.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.896552" vertical-offset="1187" max-vertical-offset="1717">
-          <caret line="85" column="28" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/windows8tile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16201118" vertical-offset="12425" max-vertical-offset="21182">
-          <caret line="736" column="8" selection-start-line="736" selection-start-column="8" selection-end-line="736" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53817505" vertical-offset="544" max-vertical-offset="52088">
@@ -632,19 +660,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bedroom.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5966" max-vertical-offset="8041">
-          <caret line="458" column="33" selection-start-line="458" selection-start-column="33" selection-end-line="458" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/sapphire.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="1802">
-          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="767" max-vertical-offset="2210">
+          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+          <folding>
+            <marker date="1448134928739" expanded="true" signature="561:2693" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -656,10 +678,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/tileCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.584973" vertical-offset="0" max-vertical-offset="1717">
+          <caret line="85" column="28" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.2846155" vertical-offset="5236" max-vertical-offset="6766">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="3825" max-vertical-offset="6766">
+          <caret line="239" column="50" selection-start-line="239" selection-start-column="50" selection-end-line="239" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -671,6 +701,26 @@
             <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bedroom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.884615" vertical-offset="6076" max-vertical-offset="8330">
+          <caret line="371" column="51" selection-start-line="371" selection-start-column="51" selection-end-line="371" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/windows8tile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5551257" vertical-offset="8672" max-vertical-offset="21182">
+          <caret line="527" column="13" selection-start-line="527" selection-start-column="13" selection-end-line="527" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
